@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ff6f61;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+header p {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product-section {
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.countdown-container {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#countdown div {
+    flex: 1;
+    padding: 10px;
+}
+
+.purchase-options {
+    margin-top: 20px;
+}
+
+.purchase-options h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.buy-btn, .learn-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.buy-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.buy-btn:hover {
+    background-color: #0056b3;
+}
+
+.learn-btn {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.learn-btn:hover {
+    background-color: #e0a800;
+}
